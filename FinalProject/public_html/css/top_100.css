@@ -1,0 +1,90 @@
+body,html {
+	width: 100%;
+	height: 100%;
+}
+
+.topnav {
+	font-size: 14px;
+}
+.navbar{
+	color: #000000;
+}
+.navbar-header {
+    float: left;
+    padding-top: 15px;
+    text-align: right;
+    width: 55%;
+    font-size:large;
+}
+.navbar-brand {
+	float:none;
+}
+
+.intro-header {
+	/*padding-top: 50px;*/
+	/*padding-bottom: 50px;*/
+	width: 100%;
+	height:90%;
+	color: #f8f8f8;
+	background: url(../images/top_100.jpg) center center fixed no-repeat;
+	/*background-size: auto 100%;*/
+	background-size: cover;
+	margin:0;
+    padding:0;
+    /*-moz-background-size: cover;*/
+    /*background-size: cover;*/
+}
+
+.intro-message {
+	position: relative;
+	padding-top: 20%;
+	/*padding-bottom: 10%;*/
+}
+
+.intro-message>h1 {
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	font-size: 5em;
+	text-align: center;
+}
+.input-group{
+	color: #fff;
+	background-color: rgba(1, 1, 1, 0.3);
+	width:450px;
+	text-align: left;
+	float: left;
+	margin:0 auto;
+}
+
+
+.intro-divider {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message>h3 {
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.intro-message {
+		padding-bottom: 15%;
+	}
+.intro-message>h1 {
+		font-size: 3em;
+		text-align:center;
+	}
+
+	/*ul.intro-social-buttons>li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0
+	}
+
+	ul.intro-social-buttons>li:last-child {
+		margin-bottom: 0
+	}*/
+
+	/*.intro-divider {
+		width: 100%
+	}*/
