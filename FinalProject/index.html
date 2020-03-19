@@ -1,0 +1,475 @@
+﻿<!DOCTYPE html>
+<html>
+   <style>
+      input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+   </style>
+   <head>
+      <title>Search Wine Online | Consign and Search Your Wine Collection on 540DB.com | WineAid</title>
+      <meta charset="utf-8">
+      <meta name="description" content="Traveling HTML5 Template" />
+      <meta name="author" content="Design Hooks" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700" rel="stylesheet" />
+      <link href="img/favicon.png" type="image/x-icon" rel="shortcut icon" />
+      <link href="css/screen.css" rel="stylesheet" />
+   </head>
+   <body class="home" id="page">
+      <!-- Header -->
+      <header class="main-header">
+         <div class="container">
+            <div class="header-content">
+               <a href="index.html">
+                  <img src="img/site.png" alt="site identity" />
+               </a>
+
+               <nav class="site-nav">
+                  <ul class="clean-list site-links">
+                     <li>
+                        <a href="top_100.php" color="red">Top 100</a>
+                     </li>
+                     <li>
+                        <a href="http://web.engr.oregonstate.edu/~chanchek/aboutus" color="red">About us</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <!-- Main Content -->
+      <div class="content-box">
+         <!-- Hero Section -->
+         <section class="section section-hero">
+            <div class="hero-box"></div>
+               <div class="container">
+                  <div class="hero-text align-center">
+                     <h1>Search a decent wine now!</h1>
+                     <p>And find the specific price of wine for you!</p>
+                  </div>
+                  <div class="hero-text align-center">
+                  <form class="destinations-form" method="POST" action="index.php">
+                     <div class="input-line">
+                        <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                           <!-- <div class="customselect" style="width:200px;"> -->
+                           <select id="customselect1" name = "customselect1">
+                              <option value="" selected disabled hidden>Attribution</option>
+                              <option value="country">country</option>
+                              <option value="region">variety</option>
+                              <option value="points">points</option>
+                              <option value="province">province</option>
+                              <option value="price">price</option>
+                              <option value="winery">winery</option>
+                           </select>
+                           <br></br>
+                           <select id="order1" name ="order1">
+                              <option value="" selected disabled hidden>Order By</option>
+                              <option value="country">country</option>
+                              <option value="region">variety</option>
+                              <option value="points">points</option>
+                              <option value="province">province</option>
+                              <option value="price">price</option>
+                              <option value="winery">winery</option>
+                           </select>
+                           <br></br>
+                           <input class="form-control" id="WineInformation1" name = "WineInformation1" placeholder="Wine Information" type="text" />
+                           <input type="submit" name="submit" id="submit" class="btn btn-primary btn-outline btn-lg" value="Search">
+                        </div>
+                     </div>
+                  </div>
+                  </form>
+               </div>
+            </div>
+            <br><br><br><br><br>
+            <!-- Statistics Box -->
+            <div class="container">
+               <div class="statistics-box">
+                  <div class="statistics-item">
+                     <span class="value">276,890</span>
+                     <p class="title">Wine</p>
+                  </div>
+
+                  <div class="statistics-item">
+                     <span class="value">35000</span>
+                     <p class="title">Winery</p>
+                  </div>
+
+                  <div class="statistics-item">
+                     <span class="value">35</span>
+                     <p class="title">Taster</p>
+                  </div>
+
+                  <div class="statistics-item">
+                     <span class="value">49</span>
+                     <p class="title">country</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Destinations Section -->
+         <section class="section section-destination">
+            <!-- Title -->
+            <div class="section-title">
+               <div class="container">
+                  <h2 class="title">Explore our top destinations</h2>
+                  <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+               </div>
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-16 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="http://www.tenutasanguido.com/eng/">
+                              <img src="img/destination-1.jpg" alt="destination image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">No: 1</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                               <h4 class="city">Tenuta San Guido</h4>
+                               <p class="country">Italia</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-8 col-sm-12 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="http://www.neipperg.com/en/discover/chateau-canon-la-gaffeliere-saint-emilion.html">
+                              <img src="img/destination-2.jpg" alt="destination image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">No: 2</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                               <h4 class="city">Château Canon-La Gaffelière</h4>
+                              <p class="country">French</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-8 col-sm-12 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="https://www.wilsondaniels.com/winery/castello-di-volpaia/">
+                              <img src="img/destination-3.jpg" alt="destination image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">No: 3</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                               <h4 class="city">Castello di Volpaia</h4>
+                               <p class="country">Italia</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-8 col-sm-12 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="https://www.riojalta.com/en/">
+                              <img src="img/destination-4.jpg" alt="destination image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">No: 4</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                               <h4 class="city">La Rioja Alta</h4>
+                               <p class="country">Spain</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-8 col-sm-12 col-xs-24">
+                     <div class="destination-box">
+                        <div class="box-cover">
+                           <a href="https://www.moet.com/en-us">
+                              <img src="img/destination-5.jpg" alt="destination image" />
+                           </a>
+                        </div>
+
+                        <span class="boats-qty">No: 5</span>
+
+                        <div class="box-details">
+                           <div class="box-meta">
+                               <h4 class="city">Moët & Chandon</h4>
+                               <p class="country">French,Épernay</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="load-destinations-box">
+                     <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                           <div class="box-cover">
+                              <a href="#">
+                                 <img src="img/destination-4.jpg" alt="destination image" />
+                              </a>
+                           </div>
+
+                           <span class="boats-qty">495</span>
+
+                           <div class="box-details">
+                              <div class="box-meta">
+                                 <h4 class="city">Portofino</h4>
+                                 <p class="country">Italy</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                           <div class="box-cover">
+                              <a href="#">
+                                 <img src="img/destination-5.jpg" alt="destination image" />
+                              </a>
+                           </div>
+
+                           <span class="boats-qty">402</span>
+
+                           <div class="box-details">
+                              <div class="box-meta">
+                                 <h4 class="city">Port Hercules</h4>
+                                 <p class="country">Monaco</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                           <div class="box-cover">
+                              <a href="#">
+                                 <img src="img/destination-3.jpg" alt="destination image" />
+                              </a>
+                           </div>
+
+                           <span class="boats-qty">543</span>
+
+                           <div class="box-details">
+                              <div class="box-meta">
+                                 <h4 class="city">Palma de Mallorca</h4>
+                                 <p class="country">Spain</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="align-center">
+                  <a href="top_100.php"><span class="text">🍷See the Top 100 Wine🍷</span><i class="icon-spinner6"></i></a>
+               </div>
+            </div>
+         </section>
+
+         <!-- Parallax Box -->
+         <div class="parallax-box">
+            <div class="container">
+               <div class="text align-center">
+                  <h1>You really know the "Wine" ?</h1>
+                  <p>Knowing the wine, savoring its taste</p>
+
+                  <a href="http://web.engr.oregonstate.edu/~chanchek/aboutus.html" class="btn btn-special no-icon size-2x">Contact us</a>
+               </div>
+            </div>
+         </div>
+
+         <!-- Boats Section -->
+         <section class="section section-boats">
+            <!-- Title -->
+            <div class="section-title">
+               <div class="container">
+                  <h2 class="title">The "Wine"</h2>
+                  <h1><font color="#809fff">Click The Area You Interesting In</font></h1>
+               </div>
+            </div>
+
+            <!-- Content -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                            <div class="box-cover">
+                                <a href="https://www.wideopeneats.com/10-health-benefits-get-drinking-daily-glass-wine/">
+                                    <img src="img/bck.jpg" alt="destination image" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                            <div class="box-cover">
+                                <img src="img/bckb.jpg" alt="destination image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                            <div class="box-cover">
+                                <a href=" http://www.eatingwell.com/article/290652/the-best-wine-and-nut-pairings/">
+                                    <img src="img/bck2.jpg" alt="destination image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                            <div class="box-cover">
+                                <img src="img/bckb.jpg" alt="destination image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                            <div class="box-cover">
+                                <a href="https://www.thespruceeats.com/how-wine-is-made-3511362">
+                                    <img src="img/bck3.jpg" alt="destination image" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                            <div class="box-cover">
+                                <img src="img/bckb.jpg" alt="destination image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                            <div class="box-cover">
+                                <a href="https://nymag.com/strategist/article/best-gifts-wine-lovers.html">
+                                    <img src="img/bck4.jpg" alt="destination image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                            <div class="box-cover">
+                                <img src="img/bckb.jpg" alt="destination image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-24">
+                        <div class="destination-box">
+                            <div class="box-cover">
+                                <a href="https://learn.winecoolerdirect.com/red-wine/">
+                                    <img src="img/bck5.jpg" alt="destination image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         </section>
+      </div>
+
+      <!-- Footer -->
+      <footer class="main-footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="widget widget_links">
+                     <h5 class="widget-title">Top Locations</h5>
+                     <ul>
+                        <li><a href="#">Lorem impsum dolor</a></li>
+                        <li><a href="#">Sit amet consectetur</a></li>
+                        <li><a href="#">Adipisicing elit</a></li>
+                        <li><a href="#">Eiusmod tempor</a></li>
+                        <li><a href="#">incididunt ut labore</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="col-md-5">
+                  <div class="widget widget_links">
+                     <h5 class="widget-title">Featured Wine</h5>
+                     <ul>
+                        <li><a href="#">Lorem impsum dolor</a></li>
+                        <li><a href="#">Sit amet consectetur</a></li>
+                        <li><a href="#">Adipisicing elit</a></li>
+                        <li><a href="#">Eiusmod tempor</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="col-md-9">
+                  <div class="widget widget_social">
+                     <h5 class="widget-title">Subscribe to our newsletter</h5>
+                     <form class="subscribe-form">
+                        <div class="input-line">
+                           <input type="text" name="subscribe-email" value="" placeholder="Your email address" />
+                        </div>
+                        <button type="button" name="subscribe-submit" class="btn btn-special no-icon">Subscribe</button>
+                     </form>
+
+                     <ul class="clean-list social-block">
+                        <li>
+                           <a href="#"><i class="icon-facebook"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="icon-twitter"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="icon-google-plus"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="col-md-5">
+                  <div class="widget widget_links">
+                     <h5 class="widget-title">Contact us</h5>
+                     <ul>
+                        <li><a href="#">Lorem impsum dolor</a></li>
+                        <li><a href="#">Sit amet consectetur</a></li>
+                        <li><a href="#">Adipisicing elit</a></li>
+                        <li><a href="#">Eiusmod tempor</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <!-- Scripts -->
+      <script src="js/jquery.js"></script>
+      <script src="js/functions.js"></script>
+   </body>
+</html>
